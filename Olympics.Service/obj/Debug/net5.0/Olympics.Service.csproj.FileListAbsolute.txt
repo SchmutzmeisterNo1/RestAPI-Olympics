@@ -1,0 +1,15 @@
+C:\Users\maxim\source\repos\Olympics\Olympics.Service\bin\Debug\net5.0\Olympics.Service.deps.json
+C:\Users\maxim\source\repos\Olympics\Olympics.Service\bin\Debug\net5.0\Olympics.Service.dll
+C:\Users\maxim\source\repos\Olympics\Olympics.Service\bin\Debug\net5.0\ref\Olympics.Service.dll
+C:\Users\maxim\source\repos\Olympics\Olympics.Service\bin\Debug\net5.0\Olympics.Service.pdb
+C:\Users\maxim\source\repos\Olympics\Olympics.Service\bin\Debug\net5.0\Olympics.Models.dll
+C:\Users\maxim\source\repos\Olympics\Olympics.Service\bin\Debug\net5.0\Olympics.Models.pdb
+C:\Users\maxim\source\repos\Olympics\Olympics.Service\obj\Debug\net5.0\Olympics.Service.csproj.AssemblyReference.cache
+C:\Users\maxim\source\repos\Olympics\Olympics.Service\obj\Debug\net5.0\Olympics.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maxim\source\repos\Olympics\Olympics.Service\obj\Debug\net5.0\Olympics.Service.AssemblyInfoInputs.cache
+C:\Users\maxim\source\repos\Olympics\Olympics.Service\obj\Debug\net5.0\Olympics.Service.AssemblyInfo.cs
+C:\Users\maxim\source\repos\Olympics\Olympics.Service\obj\Debug\net5.0\Olympics.Service.csproj.CoreCompileInputs.cache
+C:\Users\maxim\source\repos\Olympics\Olympics.Service\obj\Debug\net5.0\Olympics.Service.csproj.CopyComplete
+C:\Users\maxim\source\repos\Olympics\Olympics.Service\obj\Debug\net5.0\Olympics.Service.dll
+C:\Users\maxim\source\repos\Olympics\Olympics.Service\obj\Debug\net5.0\ref\Olympics.Service.dll
+C:\Users\maxim\source\repos\Olympics\Olympics.Service\obj\Debug\net5.0\Olympics.Service.pdb

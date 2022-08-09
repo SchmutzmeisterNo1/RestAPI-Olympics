@@ -1,0 +1,12 @@
+C:\Users\maxim\source\repos\Olympics\Olympics.Models\bin\Debug\net5.0\Olympics.Models.deps.json
+C:\Users\maxim\source\repos\Olympics\Olympics.Models\bin\Debug\net5.0\Olympics.Models.dll
+C:\Users\maxim\source\repos\Olympics\Olympics.Models\bin\Debug\net5.0\ref\Olympics.Models.dll
+C:\Users\maxim\source\repos\Olympics\Olympics.Models\bin\Debug\net5.0\Olympics.Models.pdb
+C:\Users\maxim\source\repos\Olympics\Olympics.Models\obj\Debug\net5.0\Olympics.Models.csproj.AssemblyReference.cache
+C:\Users\maxim\source\repos\Olympics\Olympics.Models\obj\Debug\net5.0\Olympics.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maxim\source\repos\Olympics\Olympics.Models\obj\Debug\net5.0\Olympics.Models.AssemblyInfoInputs.cache
+C:\Users\maxim\source\repos\Olympics\Olympics.Models\obj\Debug\net5.0\Olympics.Models.AssemblyInfo.cs
+C:\Users\maxim\source\repos\Olympics\Olympics.Models\obj\Debug\net5.0\Olympics.Models.csproj.CoreCompileInputs.cache
+C:\Users\maxim\source\repos\Olympics\Olympics.Models\obj\Debug\net5.0\Olympics.Models.dll
+C:\Users\maxim\source\repos\Olympics\Olympics.Models\obj\Debug\net5.0\ref\Olympics.Models.dll
+C:\Users\maxim\source\repos\Olympics\Olympics.Models\obj\Debug\net5.0\Olympics.Models.pdb
