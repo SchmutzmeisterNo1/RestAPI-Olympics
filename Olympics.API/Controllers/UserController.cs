@@ -72,13 +72,37 @@ namespace Olympics.API.Controllers
 		[Route("edit")]
 		public IActionResult Edit(User model)
 		{
+			var user = CurrentUser;
+
+			if (user == null)
+				throw new OlympException(Strings.Exception_NoUser);
+			if (user.Id != model.Id) { 
+				if (!_securityService.IsInRole(user, RoleTypeEnum.Administrator))
+					throw new OlympException(Strings.Exception_Rights);
+				if (!_securityService.HasPrivilege(user, "User.Edit"))
+					throw new OlympException(Strings.Exception_Privileges);
+			}
+
+			_userService.Edit(model);
+
 			return Ok();
 		}
 
 		[HttpDelete]
 		[Route("delete/{id}")]
-		public IActionResult Remove(int id)
+		public IActionResult Delete(int id)
 		{
+			var user = CurrentUser;
+
+			if (user == null)
+				throw new OlympException(Strings.Exception_NoUser);
+			if (!_securityService.IsInRole(user, RoleTypeEnum.Administrator))
+				throw new OlympException(Strings.Exception_Rights);
+			if (!_securityService.HasPrivilege(user, "User.Delete"))
+				throw new OlympException(Strings.Exception_Privileges);
+
+			_userService.Delete(id);
+
 			return Ok();
 		}
 	}
