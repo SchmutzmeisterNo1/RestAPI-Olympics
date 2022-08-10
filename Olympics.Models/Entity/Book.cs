@@ -18,10 +18,20 @@ namespace Olympics.Models.Entity
 		[ForeignKey("ShelveId")]
 		public virtual Shelve Shelve { get; set; }
 
+		public int CreationUserId { get; set; }
+
+		[ForeignKey("CreationUserId")]
+		public virtual User CreationUser { get; set; }
+
 		public DateTime CreationDate { get; set; }
+
+		public int LastUpdatedUserId { get; set; }
+
+		[ForeignKey("LastUpdatedUserId")]
+		public virtual User LastUpdatedUser { get; set; }
 
 		public DateTime LastUpdatedDate { get; set; }
 
-		public virtual IEnumerable
+		public virtual IEnumerable<Page> Pages { get; set; }
 	}
 }

@@ -22,6 +22,9 @@ namespace Olympics.Service
 		public DbSet<Role> Roles { get; set; }
 		public DbSet<Privilege> Privileges { get; set; }
 		public DbSet<RolePrivilege> Roleprivileges { get; set; }
+		public DbSet<Shelve> Shelves { get; set; }
+		public DbSet<Book> Books { get; set; }
+		public DbSet<Page> Pages { get; set; }
 
 		public DataContext(DbContextOptions<DataContext> options) : base(options)
 		{
@@ -33,6 +36,8 @@ namespace Olympics.Service
 			builder.Entity<RolePrivilege>().HasKey(x => new { x.PrivilegeId, x.RoleId });
 			builder.Entity<RolePrivilege>().HasOne(x => x.Role).WithMany(x => x.Privileges).HasForeignKey(x => x.RoleId);
 			builder.Entity<RolePrivilege>().HasOne(x => x.Privilege).WithMany(x => x.Roles).HasForeignKey(x => x.PrivilegeId);
+			builder.Entity<Shelve>().HasMany(x => x.Books).WithOne(x => x.Shelve).HasForeignKey(x => x.ShelveId).OnDelete(DeleteBehavior.Cascade);
+			builder.Entity<Book>().HasMany(x => x.Pages).WithOne(x => x.Book).HasForeignKey(x => x.BookId).OnDelete(DeleteBehavior.Cascade);
 		}
 	}
 }

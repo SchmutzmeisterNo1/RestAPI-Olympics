@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Olympics.Models;
 using Olympics.Models.Entity;
 using Olympics.Service;
 using System;
@@ -11,14 +12,19 @@ namespace Olympics.Service
 {
 	public class SecurityService : BaseService, ISecurityService
 	{
-		public SecurityService(DataContext context): base (context) { }
+		private readonly IUserService _userService;
+
+		public SecurityService(DataContext context, IUserService userService): base (context) 
+		{
+			_userService = userService;
+		}
 
 		public bool IsInRole(User user, RoleTypeEnum roleType)
 		{
 			return user.Role.RoleType == roleType;
 		}
 
-		public bool IsInAnyRole(User user, RoleTypeEnum[] roleTypes)
+		public bool IsInAnyRole(User user, IEnumerable<RoleTypeEnum> roleTypes)
 		{
 			return roleTypes.Any(x => x == user.Role.RoleType);
 		}
@@ -54,6 +60,13 @@ namespace Olympics.Service
 				.Include(x => x.Roles)
 				.ThenInclude(x => x.Role)
 				.FirstOrDefault();
+		}
+
+		public void UpdateRole(UpdateRoleViewModel model)
+		{
+			var user = _userService.GetById(model.UserId);
+			user.Role.RoleType = model.RoleType;
+			base.SaveChanges();
 		}
 	}
 }

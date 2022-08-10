@@ -27,7 +27,7 @@ namespace Olympics.API.Controllers
 		}
 
 		[HttpGet]
-		[Route("all")]
+		[Route("getUsers")]
 		public IEnumerable<User> GetAll()
 		{
 			var user = CurrentUser;
@@ -48,7 +48,7 @@ namespace Olympics.API.Controllers
 		}
 
 		[HttpGet]
-		[Route("getById/{id}")]
+		[Route("getUser/{id}")]
 		public User GetById(int id)
 		{
 			var user = CurrentUser;

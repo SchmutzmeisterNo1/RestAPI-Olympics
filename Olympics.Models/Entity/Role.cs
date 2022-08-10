@@ -9,16 +9,13 @@ namespace Olympics.Models.Entity
 	public enum RoleTypeEnum
 	{
 		User = 1,
-		Supporter = 2,
-		Moderator = 3,
-		Administrator = 4
+		Moderator = 2,
+		Administrator = 3
 	}
 
 	public class Role
 	{
 		public int Id { get; set; }
-
-		public string Name { get; set; }
 
 		public RoleTypeEnum RoleType { get; set; }
 
