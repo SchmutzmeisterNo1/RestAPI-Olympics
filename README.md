@@ -1,5 +1,5 @@
 # RestAPI-Olympics-WIKI
 
-Dieses Projekt dient als zukünftike API für eine Wissensdatenbank
+This project serves as a future API for a knowledge base (Wiki)
 
-Weitere Informationen für die Verwendung dieser API kommt in Zukunft
+More information for the use of this API will come in the future
