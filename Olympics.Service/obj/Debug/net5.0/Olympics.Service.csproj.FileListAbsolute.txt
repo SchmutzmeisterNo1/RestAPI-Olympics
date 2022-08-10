@@ -13,3 +13,9 @@ C:\Users\maxim\source\repos\Olympics\Olympics.Service\obj\Debug\net5.0\Olympics.
 C:\Users\maxim\source\repos\Olympics\Olympics.Service\obj\Debug\net5.0\Olympics.Service.dll
 C:\Users\maxim\source\repos\Olympics\Olympics.Service\obj\Debug\net5.0\ref\Olympics.Service.dll
 C:\Users\maxim\source\repos\Olympics\Olympics.Service\obj\Debug\net5.0\Olympics.Service.pdb
+C:\Users\maxim\source\repos\Olympics\Olympics.Service\bin\Debug\net5.0\rotativa\Linux\libwkhtmltox.so
+C:\Users\maxim\source\repos\Olympics\Olympics.Service\bin\Debug\net5.0\rotativa\Linux\wkhtmltopdf
+C:\Users\maxim\source\repos\Olympics\Olympics.Service\bin\Debug\net5.0\rotativa\Mac\libwkhtmltox.dylib
+C:\Users\maxim\source\repos\Olympics\Olympics.Service\bin\Debug\net5.0\rotativa\Mac\wkhtmltopdf
+C:\Users\maxim\source\repos\Olympics\Olympics.Service\bin\Debug\net5.0\rotativa\Windows\wkhtmltopdf.exe
+C:\Users\maxim\source\repos\Olympics\Olympics.Service\bin\Debug\net5.0\rotativa\Windows\wkhtmltox.dll

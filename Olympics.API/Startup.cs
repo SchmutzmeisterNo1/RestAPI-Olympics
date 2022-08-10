@@ -48,6 +48,7 @@ namespace Olympics.API
 			services.AddScoped<IBookService, BookService>();
 			services.AddScoped<IShelveService, ShelveService>();
 			services.AddScoped<IPageService, PageService>();
+			services.AddScoped<IPdfService, PdfService>();
 			services.AddCors(x => x.AddPolicy("development", builder =>
 			{
 				builder.AllowAnyOrigin()
