@@ -1,3 +1,15 @@
+.\Olympics\Olympics.Models\bin\Debug\net5.0\Olympics.Models.deps.json
+.\Olympics\Olympics.Models\bin\Debug\net5.0\Olympics.Models.dll
+.\Olympics\Olympics.Models\bin\Debug\net5.0\ref\Olympics.Models.dll
+.\Olympics\Olympics.Models\bin\Debug\net5.0\Olympics.Models.pdb
+.\Olympics\Olympics.Models\obj\Debug\net5.0\Olympics.Models.csproj.AssemblyReference.cache
+.\Olympics\Olympics.Models\obj\Debug\net5.0\Olympics.Models.GeneratedMSBuildEditorConfig.editorconfig
+.\Olympics\Olympics.Models\obj\Debug\net5.0\Olympics.Models.AssemblyInfoInputs.cache
+.\Olympics\Olympics.Models\obj\Debug\net5.0\Olympics.Models.AssemblyInfo.cs
+.\Olympics\Olympics.Models\obj\Debug\net5.0\Olympics.Models.csproj.CoreCompileInputs.cache
+.\Olympics\Olympics.Models\obj\Debug\net5.0\Olympics.Models.dll
+.\Olympics\Olympics.Models\obj\Debug\net5.0\ref\Olympics.Models.dll
+.\Olympics\Olympics.Models\obj\Debug\net5.0\Olympics.Models.pdb
 C:\Users\maxim\source\repos\Olympics\Olympics.Models\bin\Debug\net5.0\Olympics.Models.deps.json
 C:\Users\maxim\source\repos\Olympics\Olympics.Models\bin\Debug\net5.0\Olympics.Models.dll
 C:\Users\maxim\source\repos\Olympics\Olympics.Models\bin\Debug\net5.0\ref\Olympics.Models.dll
