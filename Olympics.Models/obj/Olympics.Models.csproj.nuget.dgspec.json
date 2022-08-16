@@ -1,31 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\maxim\\source\\repos\\Olympics\\Olympics.Models\\Olympics.Models.csproj": {}
+    ".\\Olympics\\Olympics.Models\\Olympics.Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\maxim\\source\\repos\\Olympics\\Olympics.Models\\Olympics.Models.csproj": {
+    ".\\Olympics\\Olympics.Models\\Olympics.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\maxim\\source\\repos\\Olympics\\Olympics.Models\\Olympics.Models.csproj",
+        "projectUniqueName": ".\\Olympics\\Olympics.Models\\Olympics.Models.csproj",
         "projectName": "Olympics.Models",
-        "projectPath": "C:\\Users\\maxim\\source\\repos\\Olympics\\Olympics.Models\\Olympics.Models.csproj",
-        "packagesPath": "C:\\Users\\maxim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\maxim\\source\\repos\\Olympics\\Olympics.Models\\obj\\",
+        "projectPath": ".\\Olympics\\Olympics.Models\\Olympics.Models.csproj",
+        "packagesPath": ".\\.nuget\\packages\\",
+        "outputPath": ".\\Olympics\\Olympics.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          ".\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\maxim\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          ".\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          ".\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          ".\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          ".\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": ".\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
         }
       }
     }

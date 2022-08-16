@@ -2,7 +2,7 @@
   "version": 2,
   "dgSpecHash": "CmsKLFFi7AumcsGrvPgl0f2Z4m3fXc3g6ShbKgM/TMMN4Zugup6FZcqf1QVhPTyjib9EeKPYRu779xk26EdjKg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\maxim\\source\\repos\\Olympics\\Olympics.Models\\Olympics.Models.csproj",
+  "projectFilePath": ".\\Olympics\\Olympics.Models\\Olympics.Models.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
