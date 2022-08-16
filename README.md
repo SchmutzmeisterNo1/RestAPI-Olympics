@@ -1,5 +1,5 @@
 # RestAPI-Olympics-WIKI
 
-This project serves as a future API for a knowledge base (Wiki). An Angular web application will also be added in the future
-
-More information for the use of this API will come
+This will be an open source program, which will serve as a knowledge base. 
+An Angular frontend will be added in the future. 
+An introduction will be written here as soon as the project is completed.
