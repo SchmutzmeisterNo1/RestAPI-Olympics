@@ -28,7 +28,7 @@ namespace Olympics.API.Controllers
 		}
 
 		[HttpGet]
-		[Route("getBook")]
+		[Route("getBook/{id}")]
 		public Book GetBook(int id)
 		{
 			var user = CurrentUser;
